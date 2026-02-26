@@ -2,17 +2,12 @@ import java.util.Scanner;
 
 public class javacode {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a number: ");
-        int number = scanner.nextInt();
+        int num1 = 10;
+        int num2 = 20;
 
-        if (number % 2 == 0) {
-            System.out.println("Even number");
-        } else {
-            System.out.println("Odd number");
-        }
+        int sum = num1 + num2;
 
-        scanner.close();
+        System.out.println("Sum = " + sum);
     }
 }
